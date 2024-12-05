@@ -1,0 +1,28 @@
+/*can add a shadow to any text on your website
+
+all of the values to style the shadow are included in one property in a specific order:
+
+horizontal, vertical, blur, color
+text-shadow: 50px 50px 15px gray;*/
+
+h1 {
+    color: rgb(32, 24, 61);
+    text-shadow: 5px 5px 2px rgba(39, 155, 184, 0.61);
+}
+
+h2 {
+    color: rgb(16, 84, 87);
+    text-shadow: -15px 6px 8px rgba(43, 211, 85, 0.61);
+}
+
+h3 {
+    color: rgb(44, 7, 78);
+    text-shadow: 7px -5px 0px rgba(124, 63, 238, 0.61);
+}
+
+/*shadow direction
+
+for a small and closer shadow: text-shadow 5px 5px;
+for a shadow thats further away: text-shadow 50px 50x;
+
+to change the direction of the shadow use negative values for the horizontal and vertical values*/

@@ -1,0 +1,19 @@
+body{
+    background-image: linear-gradient(rgb(49, 109, 165), rgb(155, 38, 61), rgb(209, 110, 43));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*without adding background-repeat and background-attachment the gradient will repeat and look UGLY*/
+
+/*can change the direction of the gradient, using this on something other than the body for the sake of the example*/
+
+h1{
+    background-image: linear-gradient(to right, rgb(60, 32, 83),rgb(116, 25, 67));
+}
+
+/*you can make gradients diagonal, add an unlimited amount of colors and use a radial gradient for a more centralized look*/
+
+h2{
+    background-image: linear-gradient(to bottom right, rgb(178, 196, 76),rgb(74, 170, 106),rgb(46, 77, 145));
+}
+h3{background-image: radial-gradient(rgb(196, 36, 57),rgb(221, 150, 58),rgb(228, 203, 64));

@@ -1,0 +1,58 @@
+/*3 border properties are 
+border-color
+border-style
+border-width
+all three are needed in order to show up*/
+
+.h1 {
+    border-color: lightblue;
+    border-style: groove;
+    border-width: medium;
+}
+
+/*BORDER STYLE
+
+some options to choose from for border-style
+
+border-style: none; border-style: solid; border-style: dotted; border-style: groove; border-style: ridge; border-style: dashed; border-style: inset; border-style: outset; border-style: double;
+
+you can combine different styles for different edges f your image
+
+    when one value is specified, it applies the same style to all four sides. 
+    all sides border-style: solid;
+
+    when two values are specified, the first style applies to the top and bottom, the second to the left and right. 
+    vertical | horizontal border style: solid dotted;
+
+    when three values are specified, the first style applies to the top, the second to the left and right, the third to the bottom. 
+    top | horizontal | bottom border-style: solid dotted dashed;
+
+    when four values are specified, the styles apply to the top, right, bottom, and left in that order (clockwise). 
+    top | right | bottom | left border-style: solid dotted dashed double;*/
+
+/*BORDER WIDTH
+
+border-width can be set with thin medium and thick but can also be set with a pixel value instead
+
+similar to border-style, each side can be set to a different width
+
+    When one value is used, it applies the same width to all four sides.
+
+    border-width: 2px;
+
+    When two values are used, the first number applies to the top and bottom, the second to the left and right
+
+    border-width: 2px 10px;
+
+    When three values are used, the first number applies to the top, the second to the left and right, the third to the bottom.
+
+    border-width: 2px 10px 20px;
+
+    When four values are used, the widths apply to the top, right, bottom, and left in that order (clockwise).
+
+    border-width: 2px 10px 20px 40px;*/
+
+/*borders can be applied in one property, order doesnt matter*/
+.h2 {
+    border: 10px ridge pink;
+}

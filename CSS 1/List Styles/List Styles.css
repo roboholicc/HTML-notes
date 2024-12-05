@@ -1,0 +1,23 @@
+/*4 different list-stles types used in this lesson
+circle
+square
+upper-roman
+lower-alpha
+
+first two can be used with unordered lists and last two can be used with ordered lists*/
+
+.circle {
+    list-style: circle;
+}
+
+.square {
+    list-style: square;
+}
+
+.u-roman {
+    list-style: upper-roman;
+}
+
+.l-alpha {
+    list-style: lower-alpha;
+}

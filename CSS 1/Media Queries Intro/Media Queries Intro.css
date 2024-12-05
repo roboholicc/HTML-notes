@@ -1,0 +1,43 @@
+/*media queries are used to change styles when the screen is wider of skinnier than a certain number of pixels
+
+written in a CSS code as 
+@media (min-width: 800px){  }
+
+they can be used with either max-width or min-width
+
+max-width tells your site what styles to apply if the screen is smaller than the specified width
+
+min-width tells your site what styles to apply if the screen is larger than the specified width*/
+
+
+/*min example*/
+body {
+    background-color: white;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: blue;
+    }
+}
+
+/*in this example the body will have a white background color until the screen is 768 pixels wide or more, then the background will be displayed as blue
+
+max example*/
+@media (max-width: 768px) {
+    body {
+        background-color: tomato;
+    }
+}
+
+/*will have a white background color until the browser is smaller than 768 pixels
+
+NOTE: media queries need to go after all the main style rules are declared for that element
+
+VIEWPORT WIDTH:
+
+to make the best use of RWD add the following code to your .html files head tag:
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+(this code tells the browser to use media queries to detect the screens size*/
+

@@ -1,0 +1,22 @@
+/*classes are used for when multiple different tags need similar styles or when multiple of the same tags need different styles
+
+a class is created with a period in front of it*/
+
+.color{
+    background-color: #b8e5d2;
+}
+.green {
+    color: #434784;
+    font-family:Impact;
+}
+/*the names of the classes go into the HTML file*/
+.yellow {
+    color: #abc4c3;
+    font-family: courier;
+}
+
+.red {
+    color: #438398;
+    font-family: arial;
+}
+/*classes can be named whatever you want but its best to keep them descriptive class names, cannot have spaces*/

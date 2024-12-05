@@ -1,0 +1,42 @@
+/*Padding is the space inside of an element, between the elements border and content inside the element*/
+body{
+    background-color:rgb(72, 84, 136);
+}
+.square{
+    padding: 40px; /*the padding*/
+    margin: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: rgb(109, 152, 168);
+}
+
+/*Margin is the space surrounding the elements border*/
+.fluffy {
+    padding: 30px;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: rgb(44, 153, 99);
+}
+
+/*Padding and Margins can be put in different directions
+
+margin
+
+margin-top
+
+margin-right
+
+margin-bottom
+
+margin-left
+
+padding
+
+padding-top
+
+padding-right
+
+padding-bottom
+
+padding-left*/

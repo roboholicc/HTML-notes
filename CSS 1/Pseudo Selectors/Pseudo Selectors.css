@@ -1,0 +1,23 @@
+/*Pseudo Selectors work like regular selectors, but are commonly used to style an element when a user-caused event occurs on that element*/
+
+/*:hover is used to change an elements style when a user hovers their mouse over an element*/
+
+h1 {
+    background-color: lightblue;
+    color:lightseagreen;
+}
+h1:hover {
+    background-color: lightcoral;
+    color: lightpink;
+}
+
+p {
+    background-color: skyblue;
+    color: slateblue;
+}
+
+p:hover {
+    background-color: lightsalmon;
+    color: salmon;
+}
+

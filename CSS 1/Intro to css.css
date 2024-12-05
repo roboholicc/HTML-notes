@@ -1,0 +1,18 @@
+/*css is what makes a website look pretty*/ 
+
+/*text color + other additions*/
+h1{
+color: rgb(28, 134, 160);
+font-family: impact;
+background-color: rgb(45, 59, 121);
+} /*this code will apply to all h1 tags*/
+
+/*more practice*/
+p {
+color: turquoise;
+font-family: chalkduster;
+text-align: center;
+background-color: teal;
+} /*this code will apply to all p tags*/
+
+/*the code will not run because it needs some HTML to apply to*/

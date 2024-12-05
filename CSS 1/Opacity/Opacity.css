@@ -1,0 +1,6 @@
+.clear {
+    opacity: 0;
+}
+.clear:hover {
+    opacity: 1;
+}

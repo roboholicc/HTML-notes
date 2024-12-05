@@ -1,0 +1,6 @@
+body {
+    background-image: url("");
+    background-repeat: repeat-y; /*changes how the image is repeated (or "tiled") across the element values can be set to no-repeat repeat repeat-x repeat-y*/
+    background-position: top right; /*position can be set to center top right bottom or left*/
+    background-size: cover; /*can be set to cover or contain, cover will make the image big enough to cover all edges of the element and contain makes the image just the right size so that it fits inside the element but touches two edges*/
+}

@@ -1,0 +1,38 @@
+/*to connect files you create a <link> tag in the HTML file, this will go inside the head tag of the HTML file*/
+h1{
+color: rgb(42, 182, 187);
+font-family: impact;
+background-color: rgb(30, 60, 104);
+}
+h3{
+color: rgb(32, 164, 173);
+font-family: chalkduster;
+text-align: center;
+background-color: rgb(0, 81, 128);
+}
+p{
+color: rgb(32, 164, 173);
+font-family: chalkduster;
+text-align: center;
+background-color: rgb(0, 81, 128);
+}
+body{
+    color: rgb(32, 22, 49);
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*the HTML pair of this file has the code neede to link the two files
+it will look something like:
+
+<head>
+  <link rel="stylesheet" type="text/CSS" href="mystyles.css">
+</head>
+
+-rel="stylesheet" is determining what kind of file you are linking to
+
+-type="text/CSS" is determining what language you are linking to
+
+-href="mystyles.css" is the name of the file you are linking to*/

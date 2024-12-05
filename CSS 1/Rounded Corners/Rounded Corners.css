@@ -1,0 +1,19 @@
+/*border-radius gives boxes or images slightly rounded corners*/
+h1{
+    background-color: rgb(104, 104, 160);
+    border-radius: 50px;
+}
+/*background-color is there in order to better see the effect of the border-radius*/
+
+/*you can specify how round each individual corner is by adding four values
+
+order: top left, top right, bottom right, bottom left*/
+h2{
+    background-color: rgb(78, 189, 156);
+    border-radius: 10px 30px 10px 30px;
+}
+
+h3{
+    background-color: rgb(116, 214, 112);
+    border-radius: 10px 20px 30px 40px;
+}

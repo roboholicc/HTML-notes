@@ -1,0 +1,19 @@
+/*order: horizontal offset, vertical offset, blur, color*/
+body{
+    background-color: black; 
+}
+h1{
+    background-color: cadetblue;
+    border-radius: 10px;
+    box-shadow: 5px 10px 3px crimson;
+}
+h2{
+    background-color: darkcyan;
+    border-radius: 10px;
+    box-shadow: 10px 15px 8px peru;
+}
+h3{
+    background-color: cadetblue;
+    border-radius: 10px;
+    box-shadow: 5px 10px 3px crimson;
+}
